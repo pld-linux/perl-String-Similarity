@@ -10,6 +10,7 @@ Summary(pl):	String::Similarity - obliczanie podobieñstwa dwóch ³añcuchów
 Name:		perl-String-Similarity
 Version:	1
 Release:	1
+# C files say GPL v2+
 License:	GPL v2
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
