@@ -35,7 +35,7 @@ miêdzy 0 a 1 i opisuje stopieñ podobieñstwa pomiêdzy ³añcuchami.
 
 %build
 %{__perl} Makefile.PL \
-	INSTALLDIRS=vendor 
+	INSTALLDIRS=vendor
 %{__make} OPTIMIZE="%{rpmcflags}"
 
 %{!?_without_tests:%{__make} test}
