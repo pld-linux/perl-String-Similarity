@@ -8,7 +8,7 @@ Summary:	String::Similarity - calculate the similarity of two strings
 Summary(pl):	String::Similarity - obliczanie podobieñstwa dwóch ³añcuchów
 Name:		perl-String-Similarity
 Version:	0.02
-Release:	2
+Release:	3
 License:	GPL v2
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
