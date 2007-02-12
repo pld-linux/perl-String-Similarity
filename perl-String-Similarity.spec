@@ -6,7 +6,7 @@
 %define		pdir	String
 %define		pnam	Similarity
 Summary:	String::Similarity - calculate the similarity of two strings
-Summary(pl):	String::Similarity - obliczanie podobieñstwa dwóch ³añcuchów
+Summary(pl.UTF-8):   String::Similarity - obliczanie podobieÅ„stwa dwÃ³ch Å‚aÅ„cuchÃ³w
 Name:		perl-String-Similarity
 Version:	1.02
 Release:	1
@@ -26,11 +26,11 @@ different. A value of '1' means that the strings are identical.
 Everything else lies between 0 and 1 and describes the amount of
 similarity between the strings.
 
-%description -l pl
-Funkcja similarity oblicza indeks podobieñstwa pomiêdzy dwoma
-parametrami. Warto¶æ '0' oznacza, ¿e ³añcuchy s± ca³kowicie ró¿ne.
-Warto¶æ '1' oznacza, ¿e s± identyczne. Wszystko inne zawiera siê
-miêdzy 0 a 1 i opisuje stopieñ podobieñstwa pomiêdzy ³añcuchami.
+%description -l pl.UTF-8
+Funkcja similarity oblicza indeks podobieÅ„stwa pomiÄ™dzy dwoma
+parametrami. WartoÅ›Ä‡ '0' oznacza, Å¼e Å‚aÅ„cuchy sÄ… caÅ‚kowicie rÃ³Å¼ne.
+WartoÅ›Ä‡ '1' oznacza, Å¼e sÄ… identyczne. Wszystko inne zawiera siÄ™
+miÄ™dzy 0 a 1 i opisuje stopieÅ„ podobieÅ„stwa pomiÄ™dzy Å‚aÅ„cuchami.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
