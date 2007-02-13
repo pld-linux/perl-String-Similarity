@@ -6,7 +6,7 @@
 %define		pdir	String
 %define		pnam	Similarity
 Summary:	String::Similarity - calculate the similarity of two strings
-Summary(pl.UTF-8):   String::Similarity - obliczanie podobieństwa dwóch łańcuchów
+Summary(pl.UTF-8):	String::Similarity - obliczanie podobieństwa dwóch łańcuchów
 Name:		perl-String-Similarity
 Version:	1.02
 Release:	1
