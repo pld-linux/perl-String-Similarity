@@ -13,8 +13,9 @@ Release:	1
 # C files say GPL v2+
 License:	GPL v2
 Group:		Development/Languages/Perl
-Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
+Source0:	http://www.cpan.org/modules/by-module/String/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	d716cd315dba597ccdb1fc1d76e9d69e
+URL:		http://search.cpan.org/dist/String-Similarity/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
@@ -54,8 +55,8 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%{perl_vendorarch}/%{pdir}/*.pm
-%dir %{perl_vendorarch}/auto/%{pdir}/%{pnam}
-%attr(755,root,root) %{perl_vendorarch}/auto/%{pdir}/%{pnam}/*.so
-%{perl_vendorarch}/auto/%{pdir}/%{pnam}/*.bs
+%{perl_vendorarch}/String/*.pm
+%dir %{perl_vendorarch}/auto/String/Similarity
+%attr(755,root,root) %{perl_vendorarch}/auto/String/Similarity/*.so
+%{perl_vendorarch}/auto/String/Similarity/*.bs
 %{_mandir}/man3/*
