@@ -40,6 +40,7 @@ między 0 a 1 i opisuje stopień podobieństwa pomiędzy łańcuchami.
 %{__perl} Makefile.PL \
 	INSTALLDIRS=vendor
 %{__make} \
+	CC="%{__cc}" \
 	OPTIMIZE="%{rpmcflags}"
 
 %{?with_tests:%{__make} test}
