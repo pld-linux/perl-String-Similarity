@@ -16,6 +16,7 @@ Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/String/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	84936c1d393e92680a5d58039dcb9fd9
 URL:		http://search.cpan.org/dist/String-Similarity/
+%{?with_tests:BuildRequires:	perl-Encode}
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
