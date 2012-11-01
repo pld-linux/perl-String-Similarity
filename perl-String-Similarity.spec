@@ -57,8 +57,8 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%{perl_vendorarch}/String/*.pm
+%{perl_vendorarch}/String/Similarity.pm
 %dir %{perl_vendorarch}/auto/String/Similarity
-%attr(755,root,root) %{perl_vendorarch}/auto/String/Similarity/*.so
-%{perl_vendorarch}/auto/String/Similarity/*.bs
-%{_mandir}/man3/*
+%attr(755,root,root) %{perl_vendorarch}/auto/String/Similarity/Similarity.so
+%{perl_vendorarch}/auto/String/Similarity/Similarity.bs
+%{_mandir}/man3/String::Similarity.3pm*
