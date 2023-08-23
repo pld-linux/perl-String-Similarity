@@ -1,6 +1,6 @@
 #
 # Conditional build:
-%bcond_without	tests	# do not perform "make test"
+%bcond_without	tests	# unit tests
 #
 %define		pdir	String
 %define		pnam	Similarity
@@ -14,7 +14,7 @@ License:	GPL v2
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/String/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	84936c1d393e92680a5d58039dcb9fd9
-URL:		https://metacpan.org/release/String-Similarity
+URL:		https://metacpan.org/dist/String-Similarity
 %{?with_tests:BuildRequires:	perl-Encode}
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
